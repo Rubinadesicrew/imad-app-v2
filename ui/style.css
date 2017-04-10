@@ -16,23 +16,22 @@ body {
 }
 
 .img-medium {
-    height: 10px;
-    width: 20px;
+    height: 200px;
 }
-
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    color: black;
-    font-family: cambria;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.comment {
-    margin-left: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #ccc;
+        max-width: 800px;
+        margin: 0 auto;
+        color: pink;
+        font-family: cambria;
+        padding-left: 20px;
+        padding-right: 20px;
+     } 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
 .commenter {
@@ -105,3 +104,4 @@ header img {
 .big {
     line-height: 200%;
 }
+
