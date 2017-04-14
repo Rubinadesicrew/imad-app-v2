@@ -67,6 +67,9 @@ app.get('/aboutme.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'aboutme.html'));
 });
 
+app.get('/contact-me.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'contact-me.html'));
+});
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
